@@ -16,9 +16,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'temurin'  # Optional, defaults to temurin in v4
-
-      - name: Verify Java version
-        run: java -version
     
       - name: Build
         run: ./gradlew build
